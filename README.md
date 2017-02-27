@@ -7,6 +7,7 @@ This project attempts to predict the likelihood of someone being a suspect of En
 We use machine learning to learn insider pays and emailing habits of POIs and non-POIs and see if we can find a pattern there, then use the model created to predict the likeliness of someone with a particular pattern of being a POI or not.
 
 ## 1. Data processing flow
+execute by ./poi_id.py
 ![data flow](https://github.com/niceyilin/Enron-Fraud-Detection/blob/master/enron_project_flow.jpg)
 
 ## 2. Dataset description
