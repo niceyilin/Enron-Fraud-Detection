@@ -7,7 +7,7 @@ This project attempts to predict the likelihood of someone being a suspect of En
 We use machine learning to learn insider pays and emailing habits of POIs and non-POIs and see if we can find a pattern there, then use the model created to predict the likeliness of someone with a particular pattern of being a POI or not.
 
 ## 1. Data processing flow
-![data flow](https://drive.google.com/drive/folders/0B8RA3Cz4irGiWnFwMFFWWkFON2s)
+![data flow](https://github.com/niceyilin/Enron-Fraud-Detection/blob/master/enron_project_flow.jpg)
 
 ## 2. Dataset description
 The financial dataset contains a total of 146 data points with 21 features. 18 are labeled as persons of interest.
@@ -174,6 +174,15 @@ SVM Classifier average Recall :  0.1  Precision :  0.05
 Decision Tree Classifier average Recall :  0.266666666667  Precision :  0.233333333333
 ```
 
+* Making "filter_percentage" lower, more email content are included, the email extraction time become even slower but as we can see
+ POI recall and precision also improved. 
+ ```
+ ****************** K Fold Validation Results ***************************
+
+GaussianNB Classifier average Recall :  0.6  Precision :  0.403333333333
+SVM Classifier average Recall :  0.0  Precision :  0.0
+Decision Tree Classifier average Recall :  0.416666666667  Precision :  0.3
+```
 
 
 
