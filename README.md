@@ -151,7 +151,7 @@ Selected  10 % text features out of total  181881
 86  people have been added with email content data !
 ```
 
-## Limitation
+## Limitation & future work
 
 The number of samples in this dataset is very limited, 146 people in total.
 Especially number of POI target is too limited, only 18 people. 
